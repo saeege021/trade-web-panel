@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>تراکنش های عمومی</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceAdmin
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Updated: Apr 20 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center" style="background-color:#e5f1e8 ;">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span class="d-none d-lg-block">متن تستی</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div><!-- End Search Bar -->
+<!-- ////////////////////////////////////////////////////////////////////////// -->
+
+
+
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-bell"></i>
+            <span class="badge bg-primary badge-number">2</span>
+          </a><!-- End Notification Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+            <li class="dropdown-header">
+              شما 2 تا پیام دارین
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">دسدن همه</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-exclamation-circle text-warning"></i>
+              <div>
+                <h4>اخطار</h4>
+                <p>متن تستی</p>
+                <p>30 دقیقه پیش</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <h4>گزارش</h4>
+                <p>متن تستی</p>
+                <p>1 ساعت پیش</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="dropdown-footer">
+              <a href="#">مشاهده همه پیام ها</a>
+            </li>
+
+          </ul><!-- End Notification Dropdown Items -->
+
+        </li><!-- End Notification Nav -->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-chat-left-text"></i>
+            <span class="badge bg-success badge-number">1</span>
+          </a><!-- End Messages Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+            <li class="dropdown-header">
+               شما 1 عدد پیام دارین
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-1.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>ادمین یک</h4>
+                  <p>متن تستی....</p>
+                  <p>4 ساعت پیش</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+           
+            <li class="dropdown-footer">
+              <a href="#">مشاهده همه پیام ها</a>
+            </li>
+
+          </ul><!-- End Messages Dropdown Items -->
+
+        </li><!-- End Messages Nav -->
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">اسم ادمین</span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>اسم ادمین</h6>
+              <span>طراحی سایت</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span>پروفایل</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-gear"></i>
+                <span>تنظیمات</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+        
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>خروج از حساب</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar" style="background-color: #bbd9c4;">
+
+    <ul class="sidebar-nav" id="sidebar-nav"  style="background-color: #bbd9c4;">
+
+      <li class="nav-item">
+        <a class="nav-link " href="index.html"  style="background-color : #83b994;">
+          <i class="bi bi-grid"></i>
+          <span >خانه</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      
+
+ 
+
+      <li class="nav-item" >
+        <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#"style="background-color : #83b994;" >
+          <i class="bi bi-layout-text-window-reverse"></i><span>تراکنش ها</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="tables-general.html" style="background-color : #83b994;">
+              <i class="bi bi-circle"></i><span>تراکنش های عمومی</span>
+            </a>
+          </li>
+          <li>
+            <a href="tables-data.html" style="background-color : #83b994;">
+              <i class="bi bi-circle"></i><span>همه اطلاعات</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Tables Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#"style="background-color : #83b994;" >
+          <i class="bi bi-bar-chart"></i><span>گزارش عملکرد</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="charts-chartjs.html" style="background-color : #83b994;">
+              <i class="bi bi-circle"></i><span>تمام عملکرد ها</span>
+            </a>
+          </li>
+          
+        
+        </ul>
+      </li><!-- End Charts Nav -->
+
+      
+      
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="users-profile.html"style="background-color : #83b994;" >
+          <i class="bi bi-person"></i>
+          <span>صفحه من</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
+
+     
+
+     
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-register.html"style="background-color : #83b994;" >
+          <i class="bi bi-card-list"></i>
+          <span>عضو شدن</span>
+        </a>
+      </li><!-- End Register Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href=""style="background-color : #83b994;" >
+          <i class="bi bi-box-arrow-in-right"></i>
+          <span>خروج</span>
+        </a>
+      </li><!-- End Login Page Nav -->
+
+  
+
+  
+
+    </ul>
+
+  </aside>
+
+
+  <main id="main" class="main" style="background-color: #e5f1e8;">
+
+    <div class="pagetitle">
+      <h1>جدول فروش ها</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">خانه</a></li>
+          <li class="breadcrumb-item">ترتکنش ها</li>
+          <li class="breadcrumb-item active">تراکنش ها عمومی</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+      <div class="row">
+        <div class="col-lg-6">
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">جدول های پیش فرض</h5>
+
+              <!-- Default Table -->
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">نام</th>
+                    <th scope="col">موقعیت</th>
+                    <th scope="col">سن</th>
+                    <th scope="col">شروع کردن</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>مشتری یک</td>
+                    <td>متن تستی</td>
+                    <td>28</td>
+                    <td>2016-05-25</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>مشتری دوم</td>
+                    <td>متن تستی</td>
+                    <td>35</td>
+                    <td>2014-12-05</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>مشتری سوم</td>
+                    <td>متن تستی</td>
+                    <td>45</td>
+                    <td>2011-08-12</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>مشتری چهارم</td>
+                    <td>متن تستی</td>
+                    <td>34</td>
+                    <td>2012-06-11</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>ادمین پنچم</td>
+                    <td>متن تستی</td>
+                    <td>47</td>
+                    <td>2011-04-19</td>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- End Default Table Example -->
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">جدول شماره دوم</h5>
+
+              <!-- Dark Table -->
+              <table class="table table-dark">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">نام</th>
+                    <th scope="col">موقعیت</th>
+                    <th scope="col">سن</th>
+                    <th scope="col">شروع</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>مشتری یک</td>
+                    <td>متن تستی</td>
+                    <td>28</td>
+                    <td>2016-05-25</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>مشتری دوم</td>
+                    <td>متن تستی</td>
+                    <td>35</td>
+                    <td>2014-12-05</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>مشتری سوم</td>
+                    <td>متن تستی</td>
+                    <td>45</td>
+                    <td>2011-08-12</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>مشتری چهارم</td>
+                    <td>متن تستی</td>
+                    <td>34</td>
+                    <td>2012-06-11</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>ادمین پنچم</td>
+                    <td>متن تستی</td>
+                    <td>47</td>
+                    <td>2011-04-19</td>
+                  </tr>
+                </tbody>
+              </table>
+              </table>
+              <!-- End Dark Table -->
+
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">عضویت فعال</h5>
+              <p>متن تستی  <code>.جدول فعال</code> متن تستی.</p>
+              <!-- Active Table -->
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">نام</th>
+                    <th scope="col">موقعیت</th>
+                    <th scope="col">سن</th>
+                    <th scope="col">شروع</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>مشتری یک</td>
+                    <td>متن تستی</td>
+                    <td>28</td>
+                    <td>2016-05-25</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>مشتری دوم</td>
+                    <td>متن تستی</td>
+                    <td>35</td>
+                    <td>2014-12-05</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>مشتری سوم</td>
+                    <td>متن تستی</td>
+                    <td>45</td>
+                    <td>2011-08-12</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>مشتری چهارم</td>
+                    <td>متن تستی</td>
+                    <td>34</td>
+                    <td>2012-06-11</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>ادمین پنچم</td>
+                    <td>متن تستی</td>
+                    <td>47</td>
+                    <td>2011-04-19</td>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- End Active Table -->
+
+            </div>
+          </div>
+
+         
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">انواع صفحه</h5>
+              <p>متن تستی <code>انواع جدول انواع جدول انواع جدول انواع جدول</code> متن تستی</p>
+              <!-- Table Variants -->
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">طبقه</th>
+                    <th scope="col">عنوان</th>
+                    <th scope="col">عنوان</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">در مورد</th>
+                    <td>زنگ زدن</td>
+                    <td>زنگ زدن</td>
+                  </tr>
+
+                  <tr class="table-primary">
+                    <th scope="row">ویژه</th>
+                    <td>زنگ زدن</td>
+                    <td>زنگ زدن</td>
+                  </tr>
+                  <tr class="table-secondary">
+                    <th scope="row">ثانوی</th>
+                    <td>زنگ زدن</td>
+                    <td>زنگ زدن</td>
+                  </tr>
+                  <tr class="table-success">
+                    <th scope="row">موفقیت</th>
+                    <td>زنگ زدن</td>
+                    <td>زنگ زدن</td>
+                  </tr>
+                  <tr class="table-danger">
+                    <th scope="row">خطر</th>
+                    <td>زنگ زدن</td>
+                    <td>زنگ زدن</td>
+                  </tr>
+                  <tr class="table-warning">
+                    <th scope="row">هشدار</th>
+                    <td>زنگ زدن</td>
+                    <td>زنگ زدن</td>
+                  </tr>
+                 
+                  <tr class="table-light">
+                    <th scope="row">جدول فعال</th>
+                    <td>زنگ زدن</td>
+                    <td>زنگ زدن</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+              <!-- End Table Variants -->
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">جدول با ردیف ها سلب شده</h5>
+
+              <!-- Table with stripped rows -->
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">نام</th>
+                    <th scope="col">موقعیت</th>
+                    <th scope="col">سن</th>
+                    <th scope="col">شروع</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>مشتری یک</td>
+                    <td>متن تستی</td>
+                    <td>28</td>
+                    <td>2016-05-25</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>مشتری دوم</td>
+                    <td>متن تستی</td>
+                    <td>35</td>
+                    <td>2014-12-05</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>مشتری سوم</td>
+                    <td>متن تستی</td>
+                    <td>45</td>
+                    <td>2011-08-12</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>مشتری چهارم</td>
+                    <td>متن تستی</td>
+                    <td>34</td>
+                    <td>2012-06-11</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>ادمین پنچم</td>
+                    <td>متن تستی</td>
+                    <td>47</td>
+                    <td>2011-04-19</td>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- End Table with stripped rows -->
+
+            </div>
+          </div>
+
+          <!-- ///////////////////////////////////////////////////////////////////////// -->
+
+         
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">جدول 3</h5>
+              <p>متن تستی <code>متن تستی</code> متن تستی <code>.جدول</code> متن تستی</p>
+              <!-- Small tables -->
+              <table class="table table-sm">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">نام</th>
+                    <th scope="col">موقعیت</th>
+                    <th scope="col">سن</th>
+                    <th scope="col">شروع</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>مشتری یک</td>
+                    <td>متن تستی</td>
+                    <td>28</td>
+                    <td>2016-05-25</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>مشتری دوم</td>
+                    <td>متن تستی</td>
+                    <td>35</td>
+                    <td>2014-12-05</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>مشتری سوم</td>
+                    <td>متن تستی</td>
+                    <td>45</td>
+                    <td>2011-08-12</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>مشتری چهارم</td>
+                    <td>متن تستی</td>
+                    <td>34</td>
+                    <td>2012-06-11</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>ادمین پنچم</td>
+                    <td>متن تستی</td>
+                    <td>47</td>
+                    <td>2011-04-19</td>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- End small tables -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      <strong><span>استراژیک دیتا</span></strong>
+    </div>
+   
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
